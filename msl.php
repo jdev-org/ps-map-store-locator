@@ -18,4 +18,13 @@ class Msl extends Module
         'max' => _PS_VERSION_
       ];
   }
+
+  public function install()
+  {
+    return parent::install();
+  }
+  public function uninstall()
+  {
+    return parent::uninstall();
+  }
 }
